@@ -3,13 +3,13 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/jlarge1974/concourse-tutorial.git
     branch: develop
 
 - name: my-timer
   type: time
   source:
-    interval: 2m
+    interval: 1m
 
 jobs:
 - name: job-hello-world
